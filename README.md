@@ -52,6 +52,12 @@ Your objects should appear in the scene!
 You can also unload the map by using the same index.
 
 ------------------------------
+IMPORTANT NOTES
+------------------------------
+
+Every object inside the level/ map prefab needs to have it's prefab present in the "Scene Objects" folder, otherwise the system won't work.
+
+------------------------------
 
 If you need any help, contact me!
 
