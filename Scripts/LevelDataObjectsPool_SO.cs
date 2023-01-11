@@ -12,7 +12,7 @@ namespace GhostOfTheLibrary.LevelManager
     public class LevelDataObjectsPool_SO : ScriptableObject, ICloneable
     {
         private const string LoadAllSceneObjectsPath = "Assets/Level Manager/Level Data Objects Pool/Load All Scene Objects";
-        private const string SceneObjectsResourcesPath = "Scene Objects";
+        private const string SceneObjectsResourcesPath = "Level Manager/Scene Objects";
 
         public SerializableDictionary<string, SceneObjectPool> SceneObjectPoolsDictionary;
         public List<Book_SO> Books;

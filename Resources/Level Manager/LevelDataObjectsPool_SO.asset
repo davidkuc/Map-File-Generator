@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58673896f48a1cc41860859e55404432, type: 3}
+  m_Name: LevelDataObjectsPool_SO
+  m_EditorClassIdentifier: 
+  SceneObjectPoolsDictionary:
+    list:
+    - Key: Book
+      Value:
+        Prefab: {fileID: 5394237016047589956, guid: fc19a3c960ffaa248801c7a2152af79e, type: 3}
+        PoolSize: 200
+        GroupGameObject: {fileID: 0}
+        Pool: []
+    - Key: "Rega\u0142 L.Polly"
+      Value:
+        Prefab: {fileID: 1798209618025826299, guid: c07a87b793d4e184c8d027e34c5ec2f5, type: 3}
+        PoolSize: 20
+        GroupGameObject: {fileID: 0}
+        Pool: []
+  Books: []
+  Clients: []
