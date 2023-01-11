@@ -57,13 +57,13 @@ IMPORTANT NOTES
 
 Every object inside the level/ map prefab needs to have it's prefab present in the "Scene Objects" folder, otherwise the system won't work.
 
-Pay attention to the scene objects names, because this system uses strings as keys in dictionaries.
+Pay attention to the scene objects names, because this system uses strings as keys in dictionaries to compare scene objects.
 
 ------------------------------
 
 If you need any help, contact me!
 
-E-mail: davidkuc2@onet.pl
-Discord: David Kuc#7866
+E-mail: davidkuc2@onet.pl ||
+Discord: David Kuc#7866 ||
 Facebook: https://www.facebook.com/McMudzynek
 
