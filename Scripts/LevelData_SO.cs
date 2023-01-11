@@ -9,10 +9,8 @@ namespace GhostOfTheLibrary.LevelManager
     [CreateAssetMenu(fileName = "LevelData_SO_", menuName = "Scriptable Objects/Level Data")]
     public class LevelData_SO : ScriptableObject, ICloneable
     {
-        // Tutaj ladowane sa obiekty (sklonowane prefaby) z LevelDataObjectsPool_SO, potem ich Transformy sa zmieniane na wartosci obecne w LevelDataObjects.Tranforms
+        // Here the scene objects from LevelDataObjectsPool_SO are loaded, later their transforms are changed with the values in LevelDataObjects.Tranforms
         public SerializableDictionary<string, SceneObjects> SceneObjectsDictionary;
-        public List<Book_SO> Books;
-        public List<Client_SO> Clients;
 
         public void LoadLevel(LevelDataObjectsPool_SO levelDataObjectsPool)
         {
@@ -45,8 +43,6 @@ namespace GhostOfTheLibrary.LevelManager
             var clonedObject = Instantiate(this);
 
             clonedObject.SceneObjectsDictionary = (SerializableDictionary<string, SceneObjects>)SceneObjectsDictionary?.Clone();
-            clonedObject.Books = (List<Book_SO>)Books?.CloneScriptableObjectList();
-            clonedObject.Clients = (List<Client_SO>)Clients?.CloneScriptableObjectList();
 
             return clonedObject;
         }
