@@ -1,4 +1,4 @@
-# Map File Generator
+# Map Objects Save System
  A system that saves positions of gameobjects in scene, so that you can recreate that scene with pre-loaded gameobjects.
  In the target project this system is meant to make gameobjects present in the scene reusable, so we don't have to load them for every new level in the game.
  
